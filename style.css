@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100vw;
+    height: 7vh;
+    background-color: black;
+    position:sticky;
+    top: 0;
+}
+.navbarh4{
+    font-size: 20px;
+    color: white;
+}
+.hover{
+    width: 4vw;
+    height: 3vh;
+    position: absolute;
+   padding: 15px;
+    display: inline-block;
+}
+.home{
+    left: 10px;
+}
+.band{
+    left: 100px;
+}
+.tour{
+    left: 180px;
+}
+.contact{
+    width: 6vw;
+    left: 260px;
+}
+.more{
+    left: 390px;
+}
+.pretrazi{
+    right: 15px;
+    text-align: center;
+    color: white;
+}
+.navbarh4:hover{
+    color: black;
+}
+.hover:hover{
+    background-color: gray;
+}
+.firstpic{
+    width: 100vw;
+    height: 100vh;
+}
+
+.picheading{
+position: absolute;
+bottom: 10px;
+left:600px;
+color: white;
+}
+.picheading h3{
+    text-align: center;
+    font-size: 30px;
+}
+.picheading h5{
+    font-size: 20px ;
+    text-align: center;
+}
+.theband{
+    position: relative;
+}
+.theband1{
+    position: absolute;
+    left: 700px;
+    top: 100px;
+}
+.lovemusic{
+    position: absolute;
+    font-style: italic;
+    left: 739px;
+    top: 170px;
+    color:rgb(167, 157, 157);
+}
+.text{
+    font-size: 17px;
+    font-family: "Lato", sans-serif;
+    position: absolute;
+    left: 350px;
+    top: 240px;
+}
