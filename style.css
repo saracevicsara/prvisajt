@@ -71,20 +71,52 @@ color: white;
 }
 .theband1{
     position: absolute;
-    left: 700px;
+    font-size: 30px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-decoration: none;
+    left: 710px;
     top: 100px;
 }
-.lovemusic{
+.lovemusic i{
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
     position: absolute;
     font-style: italic;
-    left: 739px;
-    top: 170px;
+    left: 730px;
+    top: 165px;
     color:rgb(167, 157, 157);
 }
-.text{
+.text i{
     font-size: 17px;
     font-family: "Lato", sans-serif;
     position: absolute;
     left: 350px;
-    top: 240px;
+    top: 210px;
+}
+.theband p{
+    display: inline-block;
+    font-size: 19px;
+}
+.name1 ,.name2,.name3{
+    position: absolute;
+    top: 400px;
+    left: 520px;
+}
+.name2{
+    left: 790px;
+}
+.name3{
+    left: 1050px;
+}
+.autor{
+    position: absolute;
+    top: 1250px;
+    left: 420px;
+   
+}
+.autorpic{
+    width: 180px;
+    height: 180px;
+    border-radius: 50px;
+    padding: 40px;
 }
