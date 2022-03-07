@@ -10,7 +10,6 @@
   top: 0;
   z-index: 99;
 }
-
 .navbarh4 {
   font-size: 20px;
   color: white;
@@ -53,7 +52,6 @@
   width: 100vw;
   height: 100vh;
 }
-
 .picheading {
   position: absolute;
   bottom: 10px;
@@ -130,7 +128,6 @@
   position: absolute;
   top: 1500px;
 }
-
 .position {
   position: relative;
   z-index: 99;
@@ -267,4 +264,22 @@
 .buyticketsp3:hover {
   background-color: rgb(199, 184, 184);
   color: black;
+}
+.contsec {
+  position: relative;
+  top: 1500px;
+  width: 100vw;
+  height: 50vh;
+  background-color: white;
+}
+.contsec h1 {
+  position: absolute;
+  top: 40px;
+  left: 45%;
+  font-size: 40px;
+}
+.contsec i {
+  position: absolute;
+  top: 110px;
+  left: 48%;
 }
