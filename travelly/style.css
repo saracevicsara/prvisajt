@@ -117,9 +117,8 @@ nav ul {
 }
 
 .cloud-2 {
-  animation: anim2 4s ease;
-
-  animation-delay: 0.6s;
+  animation: anim2 3.5s ease;
+  animation-iteration-count: infinite;
 }
 
 @keyframes anim1 {
@@ -166,36 +165,153 @@ nav ul {
   top: 330px;
   text-shadow: 1px 1px 5px rgb(252, 246, 246);
 }
-.main {
+.benefits {
   width: 100%;
   height: 100vh;
   position: relative;
 }
-.main img {
+.benefits img {
   width: 100%;
   height: 100vh;
 }
-.main-heading {
+.benefits-heading {
   font-size: 50px;
   font-weight: 900;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #4c6e97;
   text-shadow: 1px 1px 5px rgb(253, 251, 251);
   position: absolute;
-  top: 60px;
+  top: 100px;
   left: 35%;
 }
-.mainp {
+.benefits-p {
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #4c6e97;
   text-shadow: 1px 1px 5px rgb(253, 251, 251);
   position: absolute;
-  top: 140px;
+  top: 180px;
   left: 25%;
 }
-.card-travel {
+.card-travel,
+.card-hotel,
+.card-flight {
+  width: 380px;
+  height: 320px;
+  background-color: white;
+  position: absolute;
+  top: 350px;
+  left: 120px;
+}
+.div-icon-route,
+.div-icon-bed,
+.div-icon-plane {
+  width: 100%;
+  height: 35%;
+  background-color: #4c6e97;
+}
+.route-icon,
+.bed-icon,
+.icon-plane {
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 40%;
+}
+.card-travel h1,
+.card-hotel h1,
+.card-flight h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 27px;
+  font-weight: 800;
+  position: absolute;
+  top: 120px;
+  left: 35%;
+}
+.card-travel p,
+.card-hotel p,
+.card-flight p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 170px;
+  left: 6%;
+  color: rgb(100, 99, 99);
+}
+.card-hotel {
+  left: 590px;
+}
+.card-flight {
+  left: 1050px;
+}
+footer {
+  position: relative;
+}
+footer img {
+  width: 100%;
+  height: 90vh;
+}
+.contact-card {
+  width: 750px;
+  height: 450px;
+  position: absolute;
+  top: 150px;
+  left: 27%;
+  background: rgba(10, 33, 56, 0.8);
+  border-radius: 20px;
+}
+.footer-heading {
+  color: white;
+  position: absolute;
+  top: 14px;
+  left: 32%;
+  font-size: 50px;
+}
+.input,
+.input2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 150px;
+  left: 170px;
+}
+.input2 {
+  top: 230px;
+}
+.input-div,
+.input-div2 {
   width: 300px;
-  height: 250px;
-  background-color: aqua;
+  height: 40px;
+  background-color: white;
+  position: absolute;
+  top: 145px;
+  left: 250px;
+}
+.input-div2 {
+  top: 225px;
+}
+.input-div:hover,
+.input-div2:hover {
+  border: 1px solid black;
+  background-color: rgb(202, 202, 202);
+}
+.submit-button {
+  width: 100%;
+  height: 60px;
+  background-color: #4c6e97;
+  color: white;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 300px;
+}
+.submit-button p {
+  font-size: 25px;
+  position: absolute;
+  top: 15px;
+  left: 46%;
+}
+.submit-button:hover {
+  background-color: #27394e;
 }
