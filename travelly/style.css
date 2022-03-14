@@ -247,6 +247,7 @@ nav ul {
 }
 footer {
   position: relative;
+  height: 100vh;
 }
 footer img {
   width: 100%;
@@ -314,4 +315,14 @@ footer img {
 }
 .submit-button:hover {
   background-color: #27394e;
+}
+.footer-nav {
+  width: 100%;
+  height: 10vh;
+  background-color: #27394e;
+}
+.footer-nav h1 {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
 }
